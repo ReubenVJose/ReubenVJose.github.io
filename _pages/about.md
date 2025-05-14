@@ -5,7 +5,6 @@ permalink: /about/
 ![Reuben Varghese Jose](/assets/images/reubenprofile.jpg){: .align-center }
 {: style="border-radius: 50%; width: 150px;" }
 
-
 ---
 
 Hi, I’m **Reuben Varghese Jose** — a former Electrical Engineer turned Consultant, Mentor, and Impact Advocate.
