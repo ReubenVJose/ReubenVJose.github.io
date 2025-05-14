@@ -1,16 +1,12 @@
 ---
-layout: null
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
-  </body>
-</html>
+{% include head.html %}
+
+{% include_cached header.html %}
+
+{{ content }}
+
+{% include_cached footer.html %}
 
