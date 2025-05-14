@@ -1,26 +1,18 @@
-/* Light mode styles */
 [data-theme='light'] body {
-  background-color: #ffffff;
-  color: #111111;
+  background-color: #ffffff !important;
+  color: #111111 !important;
 }
 
+[data-theme='dark'] body {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+}
+
+/* Optional: adjust links */
 [data-theme='light'] a {
   color: #007acc;
 }
 
-/* Dark mode styles */
-[data-theme='dark'] body {
-  background-color: #111111;
-  color: #ffffff;
-}
-
 [data-theme='dark'] a {
   color: #1dbfff;
-}
-
-/* Profile image (works in both modes) */
-.author__avatar img {
-  border-radius: 50%;
-  border: 2px solid currentColor;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
