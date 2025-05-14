@@ -2,6 +2,7 @@
 layout: single
 title: "About"
 permalink: /about/
+author_profile: true
 ![Reuben Varghese Jose](/assets/images/reubenprofile.jpg){: .align-center }
 {: style="border-radius: 50%; width: 150px;" }
 
