@@ -50,3 +50,7 @@ plugins:
   - jekyll-archives
   - jekyll-include-cache
 
+collections:
+  pages:
+    output: true
+    permalink: /:title/
