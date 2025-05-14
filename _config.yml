@@ -4,7 +4,8 @@ description: >-
   Engineer turned consultant passionate about sustainable impact, storytelling, and career transformation.
 baseurl: "" 
 url: "https://ReubenVJose.github.io"
-minimal_mistakes_skin: "default"
+remote_theme: "mmistakes/minimal-mistakes"
+#minimal_mistakes_skin: "default"
 search: true
 
 author:
