@@ -1,1 +1,8 @@
+---
+layout: minimal
+---
+
+{% include head.html %}
+{% include_cached header.html %}
+{{ content }}
 
