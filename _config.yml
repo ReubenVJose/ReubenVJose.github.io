@@ -54,3 +54,14 @@ collections:
   pages:
     output: true
     permalink: /:title/
+
+# Custom styles
+sass:
+  style: compressed
+
+# Include custom CSS
+include:
+  - assets/css/custom.css
+  - .htaccess
+  - _pages
+  - assets/css/custom.css 
