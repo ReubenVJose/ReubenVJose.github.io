@@ -1,18 +1,24 @@
+/* Light mode */
 [data-theme='light'] body {
   background-color: #ffffff !important;
   color: #111111 !important;
 }
+[data-theme='light'] a {
+  color: #007acc !important;
+}
 
+/* Dark mode */
 [data-theme='dark'] body {
   background-color: #111111 !important;
   color: #ffffff !important;
 }
-
-/* Optional: adjust links */
-[data-theme='light'] a {
-  color: #007acc;
+[data-theme='dark'] a {
+  color: #1dbfff !important;
 }
 
-[data-theme='dark'] a {
-  color: #1dbfff;
+/* Avatar border reacts to theme */
+.author__avatar img {
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
