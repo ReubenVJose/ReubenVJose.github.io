@@ -1,18 +1,30 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     {% include head.html %}
   </head>
-  <body class="{{ page.classes | join: ' ' }}">
-    {% include_cached header.html %}
 
-    <main>
+  <body class="layout-{{ page.layout | default: 'default' }}{% if page.classes %} {{ page.classes | join: ' ' }}{% endif %}">
+    <div class="masthead">
+      {% include masthead.html %}
+    </div>
+
+    <div class="page__overlay"></div>
+
+    {% include sidebar.html %}
+
+    <div id="main" role="main">
+      {% include breadcrumbs.html %}
       {{ content }}
-    </main>
+    </div>
 
-    {% include_cached footer.html %}
+    {% include footer.html %}
 
-    <!-- Add your theme toggle script here -->
+    <!-- Toggle script goes here -->
     <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
   </body>
 </html>
