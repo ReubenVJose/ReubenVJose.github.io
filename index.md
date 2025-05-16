@@ -1,13 +1,13 @@
 ---
 layout: single
 title: "Welcome"
+author_profile: true
 permalink: /
 ---
 
 Hi, I’m **Reuben Varghese Jose** — welcome to my personal site!
 
-This space is where I share my journey in consulting, sustainable impact, storytelling, and career development.  
-You can explore my [resume](/resume/), [projects](/projects/), or [read my blog](/blog/).
+This space is where I share my journey in consulting, sustainable impact, storytelling, and career development. You can explore my [resume](/resume/), [projects](/projects/), or [read my blog](/blog/).
 
 ---
 
@@ -21,4 +21,3 @@ You can explore my [resume](/resume/), [projects](/projects/), or [read my blog]
     </li>
   {% endfor %}
 </ul>
-
