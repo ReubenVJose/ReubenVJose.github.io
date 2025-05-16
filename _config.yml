@@ -1,4 +1,4 @@
-title: Reuben Varghese Jose
+title: "Hello!👋"
 avatar : "/assets/images/reubenprofile.jpg" 
 email: reuben.varghesejose@gmail.com
 description: >-
@@ -8,6 +8,9 @@ url: "https://ReubenVJose.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 search: true
+
+atom_feed:
+  hide: true
 
 author:
   name   : "Reuben Varghese Jose"
