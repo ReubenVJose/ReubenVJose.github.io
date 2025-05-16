@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{{ page.classes | join: ' ' }}">
+    {% include_cached header.html %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include_cached footer.html %}
+
+    <!-- Add your theme toggle script here -->
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+  </body>
+</html>
