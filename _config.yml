@@ -1,4 +1,4 @@
-title: "Hello!👋"
+title: Reuben Varghese Jose
 avatar : "/assets/images/reubenprofile.jpg" 
 email: reuben.varghesejose@gmail.com
 description: >-
@@ -13,8 +13,8 @@ atom_feed:
   hide: true
 
 author:
-  name   : "Reuben Varghese Jose"
-  bio    : "Engineer turned consultant passionate about sustainable impact, storytelling, and career transformation."
+  name   : "Hello!👋"
+  bio    : "I am an Electrical Engineer turned consultant passionate about sustainable impact, storytelling, and career transformation."
   location: "Mumbai, India"
   links:
     - label: "Email"
