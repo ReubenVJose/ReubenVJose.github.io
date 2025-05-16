@@ -1,9 +1,9 @@
 title: Reuben Varghese Jose
-avatar : "/assets/images/reubenprofile.jpg" 
+avatar: "/assets/images/reubenprofile.jpg"
 email: reuben.varghesejose@gmail.com
 description: >-
   Engineer turned consultant passionate about sustainable impact, storytelling, and career transformation.
-baseurl: "" 
+baseurl: ""
 url: "https://ReubenVJose.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
@@ -13,8 +13,8 @@ atom_feed:
   hide: true
 
 author:
-  name   : "Hello!👋"
-  bio    : "I am an Electrical Engineer turned consultant passionate about sustainable impact, storytelling, and career transformation."
+  name: "Hello!👋"
+  bio: "I am an Electrical Engineer turned consultant passionate about sustainable impact, storytelling, and career transformation."
   location: "Mumbai, India"
   links:
     - label: "Email"
@@ -41,9 +41,6 @@ defaults:
       layout: "single"
       author_profile: true
 
-head_scripts:
-  - /assets/js/theme-toggle.js
-
 paginate: 5
 paginate_path: /page:num/
 timezone: Asia/Kolkata
@@ -61,12 +58,11 @@ collections:
     output: true
     permalink: /:title/
 
-# Custom styles
 sass:
   style: compressed
 
-# Include custom CSS
 include:
   - .htaccess
   - _pages
   - assets/css/custom.css
+
