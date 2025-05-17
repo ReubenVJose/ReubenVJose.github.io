@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const toggle = document.getElementById("toggle-switch");
-  if (!toggle) return;
-
   const storedTheme = localStorage.getItem("theme");
 
   if (storedTheme === "light") {
