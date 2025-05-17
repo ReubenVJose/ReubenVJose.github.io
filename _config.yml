@@ -41,6 +41,9 @@ defaults:
       layout: "single"
       author_profile: true
 
+head_scripts:
+  - /assets/js/theme-toggle.js
+
 paginate: 5
 paginate_path: /page:num/
 timezone: Asia/Kolkata
