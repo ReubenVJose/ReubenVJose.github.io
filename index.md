@@ -1,9 +1,16 @@
 ---
 layout: single
 title: "Welcome"
-author_profile: true
+author_profile: false
 permalink: /
 ---
+
+<div id="theme-toggle" style="position: fixed; top: 1rem; right: 1rem; z-index: 9999;">
+  <label style="cursor: pointer;">
+    <input type="checkbox" id="toggle-switch" />
+    <span style="color: white; font-weight: bold;"> 🌙 / ☀️</span>
+  </label>
+</div>
 
 Hi, I’m **Reuben Varghese Jose** — welcome to my personal site!
 
